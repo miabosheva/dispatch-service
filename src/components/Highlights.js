@@ -58,8 +58,7 @@ export default function Highlights() {
       sx={{
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },
-        color: 'white',
-        bgcolor: 'grey.900',
+        color: 'text.primary'
       }}
     >
       <Container
@@ -80,7 +79,7 @@ export default function Highlights() {
           <Typography component="h2" variant="h4" gutterBottom>
             Services
           </Typography>
-          <Typography variant="body1" sx={{ color: 'grey.400' }}>
+          <Typography variant="body1" sx={{ color: 'text.secondary' }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum id sapien quis malesuada. Maecenas condimentum magna quis tortor sodales vehicula. Integer vitae efficitur erat.
           </Typography>
         </Box>
@@ -97,7 +96,7 @@ export default function Highlights() {
                   p: 3,
                   height: '80%',
                   borderColor: 'hsla(220, 25%, 25%, 0.3)',
-                  backgroundColor: 'grey.800',
+                  backgroundColor: 'secondary',
                 }}
               >
                 <Box sx={{ opacity: '50%' }}>{item.icon}</Box>
@@ -105,7 +104,7 @@ export default function Highlights() {
                   <Typography gutterBottom sx={{ fontWeight: 'medium' }}>
                     {item.title}
                   </Typography>
-                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
+                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                     {item.description}
                   </Typography>
                 </div>
