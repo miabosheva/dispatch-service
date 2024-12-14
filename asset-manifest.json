@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dispatch-service/static/css/main.5e94d846.css",
+    "main.js": "/dispatch-service/static/js/main.58c34784.js",
+    "static/js/488.5229feb8.chunk.js": "/dispatch-service/static/js/488.5229feb8.chunk.js",
+    "static/media/truck-1.jpeg": "/dispatch-service/static/media/truck-1.8d650ebb9bd0a58458ed.jpeg",
+    "index.html": "/dispatch-service/index.html",
+    "main.5e94d846.css.map": "/dispatch-service/static/css/main.5e94d846.css.map",
+    "main.58c34784.js.map": "/dispatch-service/static/js/main.58c34784.js.map",
+    "488.5229feb8.chunk.js.map": "/dispatch-service/static/js/488.5229feb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e94d846.css",
+    "static/js/main.58c34784.js"
+  ]
+}
