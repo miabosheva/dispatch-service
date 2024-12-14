@@ -5,12 +5,12 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid2';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import AutoFixHighRoundedIcon from '@mui/icons-material/AutoFixHighRounded';
 import ConstructionRoundedIcon from '@mui/icons-material/ConstructionRounded';
 import QueryStatsRoundedIcon from '@mui/icons-material/QueryStatsRounded';
 import SettingsSuggestRoundedIcon from '@mui/icons-material/SettingsSuggestRounded';
 import SupportAgentRoundedIcon from '@mui/icons-material/SupportAgentRounded';
 import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
+import HandshakeRoundedIcon from '@mui/icons-material/HandshakeRounded';
 
 const items = [
   {
@@ -32,7 +32,7 @@ const items = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
-    icon: <AutoFixHighRoundedIcon />,
+    icon: <HandshakeRoundedIcon />,
     title: 'Risk Management and Insurance Coordination',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -84,7 +84,7 @@ export default function Highlights() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum id sapien quis malesuada. Maecenas condimentum magna quis tortor sodales vehicula. Integer vitae efficitur erat.
           </Typography>
         </Box>
-        <Grid container spacing={2}>
+        <Grid container spacing={5}>
           {items.map((item, index) => (
             <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
               <Stack
@@ -95,7 +95,7 @@ export default function Highlights() {
                 sx={{
                   color: 'inherit',
                   p: 3,
-                  height: '100%',
+                  height: '80%',
                   borderColor: 'hsla(220, 25%, 25%, 0.3)',
                   backgroundColor: 'grey.800',
                 }}
